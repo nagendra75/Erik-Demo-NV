@@ -2,6 +2,6 @@ name: Build and Deploy Application
 on: [push]
 jobs:
   Test.Workflow:
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Welcome to Workflows"
